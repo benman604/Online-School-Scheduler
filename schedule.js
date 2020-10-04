@@ -37,11 +37,11 @@ var secondaryStartTimes = [
 var days3 = [3,5]
 var startTimes3 = [
     [],
-    [23, 30],
+    [8, 46],
     [],
-    [23, 32],
+    [10, 21],
     [],
-    [23, 34]
+    [12, 36]
 ]
 
 /*
