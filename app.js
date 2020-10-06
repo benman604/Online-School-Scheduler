@@ -98,7 +98,7 @@ function convertToHrmin(n) {
     return [rhours, rminutes]
 }
 
-const interval
+var interval = setInterval(() => {}, 1000)
 function startMain(){
     // Every 1 second
     interval = setInterval(() => {
