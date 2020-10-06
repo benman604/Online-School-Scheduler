@@ -98,9 +98,10 @@ function convertToHrmin(n) {
     return [rhours, rminutes]
 }
 
+const interval
 function startMain(){
     // Every 1 second
-    setInterval(() => {
+    interval = setInterval(() => {
         // Update time
         date = new Date()
         day = date.getDay()
