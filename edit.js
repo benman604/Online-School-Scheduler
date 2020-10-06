@@ -47,6 +47,9 @@ function save(){
             var minute = document.getElementById("periodInputMinuteS" + j + "P" + i)
         }
     }
+    
+    clearInterval(interval)
+    startMain()
 }
 
 function checkSequence(sequence) {
