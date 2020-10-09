@@ -99,3 +99,11 @@ createInfoEditor()
 createPeriodsEditor(1)
 createPeriodsEditor(2)
 createPeriodsEditor(3)
+
+if(localStorage.getItem("first") === null){
+    window.open("about:blank")
+    localStorage.setItem("first", false)
+} else{
+    var intro = document.querySelector(".intro")
+    intro.setAttribute('style', 'display:none')
+}

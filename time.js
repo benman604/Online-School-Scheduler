@@ -4,6 +4,7 @@ var textDisplay = document.querySelector("#text")
 var linkDisplay = document.querySelector("#link")
 var prevDisplay = document.querySelector("#prev")
 
+var donePeriods = []
 function check(){
     // Match schedule to sequence according to day of week
     var sequence = sequenceCheck()
@@ -21,9 +22,15 @@ function check(){
             }
         }
 
+        var shouldIOpen = donePeriods.includes(i)
+        console.log(shouldIOpen)
+
+
         // If time on schedule and not repeating, open link
-        if(time[0] == sequence[i][0] && time[1] == sequence[i][1] && !opened){
+        if(time[0] == sequence[i][0] && time[1] == sequence[i][1] && !donePeriods.includes(i)){
+            donePeriods.push(i)
             window.open(periods[i][1])
+            console.log("ok!")
             opened = true
             currentPeriod = i
 

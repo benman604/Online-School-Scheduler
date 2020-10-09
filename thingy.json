@@ -1,0 +1,14 @@
+{
+    "name":{
+        "legal_name":{
+            "first":"",
+            "middle":"",
+            "last":""
+        },
+        "prefrence":{
+            "nickname":"",
+            "common_name":"Ben"
+        }
+    }
+
+}

@@ -122,7 +122,6 @@ function getPreviousSaves(){
 }
 
 function startMain(){
-    getPreviousSaves()
     // Every 1 second
     setInterval(() => {
         // Update time
@@ -135,6 +134,7 @@ function startMain(){
     }, 1000);
 }
 
-checkPeriodInital()
+getPreviousSaves()
 startMain()
 checkPeriodInital()
+getPreviousSaves()

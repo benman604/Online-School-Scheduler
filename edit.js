@@ -82,6 +82,9 @@ function save(){
 }
 
 function prepareEditor(){
+    var intro = document.querySelector(".intro")
+    intro.setAttribute('style', 'display:none')
+    
     savebtn.innerHTML = "Save Changes"
     savebtn.setAttribute("style", "background-color:rgb(10, 140,200);")
 
