@@ -137,4 +137,10 @@ function startMain(){
 getPreviousSaves()
 startMain()
 checkPeriodInital()
+
 getPreviousSaves()
+
+getPreviousSaves()
+checkPeriodInital()
+startMain()
+
