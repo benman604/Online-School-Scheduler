@@ -3,6 +3,7 @@ Dynamic schedule builder with support for block schedules and up to 3 schedule s
 
 # Usage
 [Online School Scheduler](https://benman604.github.io/Online-School-Scheduler/)
+
 To edit the your classes and links, click the gear icon and change the meeting name and link under the "Periods" section. 
 
 To edit the join times, you can change all the periods times under different period sequences. The defualts are set to Irvington High School's 2020-2021 schedule. 
