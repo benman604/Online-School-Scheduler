@@ -21,7 +21,7 @@ var primaryStartTimes = [
     [10, 27],
     [11, 17],
     [12, 47],
-    [23, 37]
+    [13, 37]
 ]
 
 var secondaryDays = [2,4]
